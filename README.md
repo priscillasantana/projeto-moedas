@@ -13,4 +13,4 @@
 - Material UI
 - Styled components ou SASS
 
-### Em desenvolvimento..
+### O projeto está em desenvolvimento.. :D
