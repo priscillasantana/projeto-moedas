@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "email": "jeni@jeni.com",
+      "password": "$2a$10$vuSB.BlPFKPAer9x8g.v/OVkDxERmC.RT3zUww9D2YzQfnkysPEN6",
+      "id": 1
+    },
+    {
+      "email": "p.s.e.s@hotmail.com",
+      "password": "$2a$10$/CrvWc3ujHqEQDYnLI29Kegw3CL0eFD.ZbAP1x6HqIGWAtDie2.Fq",
+      "id": 2
+    },
+    {
+      "email": "p@oi.com",
+      "password": "$2a$10$WB.LEVOYlkCr.aja6bttp.8UUT1VhLY84yRR8vB7HtAre7uqERdb2",
+      "id": 3
+    },
+    {
+      "email": "priscilla@hotmail.com",
+      "password": "$2a$10$15gA5cg7Opu18llkCZkzj.0KX33.BG2ClmulNlsNlSqn6Hn/ECIMC",
+      "id": 4
+    },
+    {
+      "email": "priscilla2@hotmail.com",
+      "password": "$2a$10$NxbI2/LhvGO2nqWfPgCTlOmotJOFPCWzPneZRBz6.cH8nvEYuor9.",
+      "id": 5
+    },
+    {
+      "email": "priscillasasd2@hotmail.com",
+      "password": "$2a$10$p5qoSaCIiGI3pgKrB0ckP.OfeTeVDXFBLKXVY2c1FdeQSkgKicGBO",
+      "id": 6
+    },
+    {
+      "email": "priscidsfllasasd2@hotmail.com",
+      "password": "$2a$10$mpVl2/2zcwwwTJWnQMN9U.P91.HKvCOnKro9FI8Ngak/ca385nq4.",
+      "id": 7
+    },
+    {
+      "email": "asdszdf@h.com",
+      "password": "$2a$10$3qKxTDZiggMOLV3bm89S4uxPx0rNknR70X/E80zMHD0m2x11phPXm",
+      "id": 8
+    },
+    {
+      "email": "pois@hotmail.com",
+      "password": "$2a$10$2Wb.YSeDZhEgSt4j4Qr6r.BN9IDEPcOeIAT4Vxsx1Pw66Q5dCXBlC",
+      "id": 9
+    }
+  ],
+  "register": [],
+  "finance": [
+    {
+      "type": "despesa",
+      "amount": "R$ 1020",
+      "id": 1
+    },
+    {
+      "type": "recebimento",
+      "amount": "R$ 1020",
+      "id": 2
+    }
+  ]
+}
