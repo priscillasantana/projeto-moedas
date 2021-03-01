@@ -6,7 +6,6 @@ import { Redirect } from 'react-router-dom'
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import Link from '@material-ui/core/Link';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
@@ -16,7 +15,7 @@ import Container from '@material-ui/core/Container';
 import Footer from '../../components/footer'
 
 
-function Cadastro () {
+function Login () {
 
     let emailInput = useRef<HTMLInputElement>(null)
     let passwordInput = useRef<HTMLInputElement>(null)
@@ -27,9 +26,8 @@ function Cadastro () {
          
         const email = emailInput.current?.value
         const password = passwordInput.current?.value
-
   
-            axios.post("http://localhost:4000/register", {
+            axios.post("http://localhost:4000/login", {
             email: email,
             password: password,
         })
@@ -71,35 +69,35 @@ function Cadastro () {
                         <LockOutlinedIcon />
                     </Avatar>
                     <Typography component="h1" variant="h5">
-                        Cadastre-se
+                        Login
                     </Typography>
                     <form className={classes.form} noValidate>
                         <Grid container spacing={2}>
-                            <Grid item xs={12}>
-                                <TextField
-                                variant="outlined"
-                                required
-                                fullWidth
-                                id="email"
-                                label="Email"
-                                name="email"
-                                autoComplete="email"
-                                inputRef={emailInput}
-                                />
-                            </Grid>
-                            <Grid item xs={12}>
-                                <TextField
-                                variant="outlined"
-                                required
-                                fullWidth
-                                name="password"
-                                label="Senha"
-                                type="password"
-                                id="password"
-                                autoComplete="current-password"
-                                inputRef={passwordInput}
-                                />
-                            </Grid>
+                          <Grid item xs={12}>
+                              <TextField
+                              variant="outlined"
+                              required
+                              fullWidth
+                              id="email"
+                              label="Email"
+                              name="email"
+                              autoComplete="email"
+                              inputRef={emailInput}
+                              />
+                          </Grid>
+                          <Grid item xs={12}>
+                              <TextField
+                              variant="outlined"
+                              required
+                              fullWidth
+                              name="password"
+                              label="Senha"
+                              type="password"
+                              id="password"
+                              autoComplete="current-password"
+                              inputRef={passwordInput}
+                              />
+                          </Grid>
                         </Grid>
                         <Button
                         type="submit"
@@ -109,14 +107,9 @@ function Cadastro () {
                         className={classes.submit}
                         onClick={enviaForm}
                         >
-                        Enviar
+                        Entrar
                         </Button>
                         <Grid container justify="flex-end">
-                        <Grid item>
-                            <Link href="/login" variant="body2">
-                            Já tem uma conta? Entre aqui
-                            </Link>
-                        </Grid>
                         </Grid>
                     </form>
                     </div>
@@ -131,4 +124,4 @@ function Cadastro () {
         </div>
     )};
 
-export default Cadastro;
+export default Login;

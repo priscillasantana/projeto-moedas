@@ -44,6 +44,16 @@
       "email": "pois@hotmail.com",
       "password": "$2a$10$2Wb.YSeDZhEgSt4j4Qr6r.BN9IDEPcOeIAT4Vxsx1Pw66Q5dCXBlC",
       "id": 9
+    },
+    {
+      "email": "pro@oi.com",
+      "password": "$2a$10$7V664vKDhlKHIaGEYWecde.IJ5qXJJfkjuD1FGhcC.eOMyVwDyP0.",
+      "id": 10
+    },
+    {
+      "email": "priscillasantana@outlook.com",
+      "password": "$2a$10$FxymQc2WPDZxmPqHtzy8u.hUXQ2oI4D6iftXrNv6SD1OcpXNQwOFG",
+      "id": 11
     }
   ],
   "register": [],
